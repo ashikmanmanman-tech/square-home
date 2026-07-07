@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return PopScope(
       canPop: false,
-      onPopInvokedWithResult: (didPop, _) {
+      onPopInvoked: (didPop) {
         if (!didPop && provider.editMode) {
           provider.exitEditMode();
         }
