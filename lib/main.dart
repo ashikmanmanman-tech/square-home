@@ -11,9 +11,8 @@ void main() {
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
-      navigationBarColor: Colors.transparent,
-      statusBarIconBrightness: Brightness.light,
-      navigationBarIconBrightness: Brightness.light,
+      systemNavigationBarColor: Colors.transparent,
+systemNavigationBarIconBrightness: Brightness.light,
     ),
   );
   runApp(const SquareHomeApp());
