@@ -223,10 +223,10 @@ class _Keypad extends StatelessWidget {
                       ),
                       child: Text(
                         key,
-                        style: const TextStyle(
-                          fontSize: key == '⌫' ? 22 : 26,
-                          fontWeight: FontWeight.w300,
-                        ),
+                        style: TextStyle(
+  fontSize: key == '⌫' ? 22.0 : 26.0,
+  fontWeight: FontWeight.w300,
+),
                       ),
                     ),
             );
